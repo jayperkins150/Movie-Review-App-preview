@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Regular.woff") format("woff");
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  background-color: #a2c8d1;
+  color: #222;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.center_ele {
+  display: flex;
+  align-items: center;
+}
+
