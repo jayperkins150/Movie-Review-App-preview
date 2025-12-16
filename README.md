@@ -1,4 +1,14 @@
-# React + Vite
+# Movie Review App preview
+
+This app is a single page app that fetches popular movie data from the TMDb API using fetch and the useEffect hoo.
+
+Stateful Filtering: The application maintains three primary state lists (movies, allMoviesFiltered, givingRating) to allow instant filtering without re-fetching data.
+
+The FilterMovies component allows users to filter the results by average vote score.
+
+Dynamic Sorting: Movies can be sorted by Release Date or Rating, order is controlled by a separate dropdown, toggling between Ascending and Descending.
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
