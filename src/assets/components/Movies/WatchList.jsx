@@ -1,4 +1,3 @@
-import React from 'react'
 import './WatchList.css'
 import PropTypes from 'prop-types'
 import RatingIcon from './images/RatingIcon.png'
@@ -33,7 +32,7 @@ export const WatchList = ({movie}) => {
             </div>
 
             <p className="movie-description">
-                {movie.overview.slice(0, 175)+"..."}
+                {(movie.overview || 'No description available.').slice(0, 175) + "..."}
             </p>
         </div>
     </a>
@@ -50,3 +49,4 @@ WatchList.propTypes={
         overview: PropTypes.string,
     }).isRequired,
 }
+
