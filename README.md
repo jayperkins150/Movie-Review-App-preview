@@ -1,26 +1,56 @@
-# Movie Review App preview
+# Movie Review App Preview
 
-This app is a single page app that fetches popular movie data from the TMDb API using fetch and the useEffect hoo.
+A movie discovery and review application that allows users to browse movies and explore ratings and reviews.
 
-Stateful Filtering: The application maintains three primary state lists (movies, allMoviesFiltered, givingRating) to allow instant filtering without re-fetching data.
+## Features
 
-The FilterMovies component allows users to filter the results by average vote score.
+- Browse movie listings
+- View movie details
+- Read reviews and ratings
+- Responsive layout
+- Clean user interface
 
-Dynamic Sorting: Movies can be sorted by Release Date or Rating, order is controlled by a separate dropdown, toggling between Ascending and Descending.
+## Technologies Used
 
-## React + Vite
+- React
+- JavaScript
+- CSS
+- API Integration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting Started
 
-Currently, two official plugins are available:
+### Clone the repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+git clone https://github.com/jayperkins150/Movie-Review-App-preview.git
+```
 
-## React Compiler
+### Install dependencies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+```
 
-## Expanding the ESLint configuration
+### Start development server
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm run dev
+```
+
+## What I Learned
+
+- Working with APIs
+- React component architecture
+- State management
+- Rendering dynamic content
+
+## Future Improvements
+
+- User authentication
+- Search functionality
+- Favorites list
+- User-submitted reviews
+
+## License
+
+No license.
